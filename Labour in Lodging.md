@@ -106,13 +106,12 @@
 
 # Labour Movement
 
-| [Labour Check-in](#labour-checkin) | [Labour Check-out](#labou) |
+| [Labour Check-in](#labour-checkin) | [Labour Check-out](#labour-check-out-request) |
 
 ## **Labour Check-in:**
 
 When Ever Employee returned to Lodging, from below Listed category will start the Checkin process manually or start and complete by system integration.
 
-<br>
 
 ### **In Check-in**:
 
@@ -241,7 +240,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-## **Labour Check-out Request:**
+## **Labour Check-Out Request:**
 
 - ### **Check-out Request will create by following source.**
 
@@ -296,9 +295,12 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 <br>
+<br>
 
 
 # **Labour Case**
+
+<br>
 
 ### **Rest**
 
@@ -323,8 +325,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
       - Process starts with ***New*** stage.
       - Employee status changed to **Rest**.
 
-   <br>
-
+<br>
 
 ### ***Rest Workflow:***
 
@@ -415,6 +416,7 @@ Transaction will creates with Sub-Category in different sources.
 
        - Employee status changed to **Under_Investigation**.
 
+<br>
 
 ### ***Refuse to Work - Workflow:***
 
@@ -475,11 +477,13 @@ Transaction will creates with Sub-Category in different sources.
     - Once Employee Exit completed then this stage complete with Employee Exit status.
 
 <br>
+<br>
 
 ### **Dead**
 
 In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
+<br>
 
 ### ***Dead Workflow:***
 
@@ -519,6 +523,7 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
        * **1.Complete** - Moved to Complete stage.
 
 <br>
+<br>
 
 ### _**Jail**_
 
@@ -528,10 +533,11 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
    - And If employee in lodging, Then checkout process will start for Employee from the lodging
 
+<br>
+
 ### ***Jail Workflow:***
 
 - ### Request:
-
 
   - Required to register the Information into Portal, about Employee while send to Jail, as Labour ID, Location and Date while Death.
 
@@ -568,12 +574,15 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
          **3.Return** - Complete and Return to Work.
 
 <br>
+<br>
 
 ### _**Hospital**_
 
 In This stage, Employee status is changed to **Sick**.
 
 - And If Employee working with Customer, Then required to End the Contract with Customer.
+
+<br>
 
 ### ***Hopital Workflow:***
 
@@ -662,6 +671,8 @@ In This stage, Employee status is changed to **Sick**.
 
            **3.Sent to Hospital** - Complete and moved to Send To Hospital stage.
 
+<br>
+<br>
 
 ### **Escape**
 
@@ -686,6 +697,7 @@ In This stage, Employee status is changed to **Sick**.
 
      - And user also can do manual action on this process.
 
+<br>
 
 ### ***Escape Workflow:***
 
