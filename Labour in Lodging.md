@@ -11,9 +11,9 @@
 
  * Labour in lodging is a status view, and use to view the number of employees in lodging with work category wise.
 
- * And Take action to create ID Card for employee.
+ * And Take action to create New ID Card for employee.
 
- * And Use to take printout as below List for Employee, as like
+ * **And Use to take printout as below List for Employee, as like**
 
       * Food Report,
       * Temporary Iqama,
@@ -65,7 +65,7 @@
 - Tracking purpose for Employee status with **Lodging** Locations.
 
 
-- In require to take on Action as:
+- **In require to take on Action as:**
 
    * **_Investigation_**
 
@@ -83,7 +83,7 @@
 
 - User can review the status and Information of Employee, with Advance Search.
 
-- User can do "Reserve the selected Employees" for a Short period.
+- **User can do "Reserve the selected Employees" for a Short period.**
 
    - User can Reserve the Employee for minimum **15 minutes**. In spite of the Employee in **"Ready to work"** status.
 
@@ -103,7 +103,7 @@
 
 - User can review the Employee profile information with Advance search.
 
-- List to view the Employee profile, with ordered and sorted by Profile Minutes.
+- **List to view the Employee profile, with ordered and sorted by Profile Minutes.**
 
     - **"Profile Minutes"** - it will Calculate the Time period for every Employee profile status, since the profile listed into Sales Profile List.
 
@@ -141,13 +141,13 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
      Checkin created from Employee Vacation Request, After Employee returned from on Vacation.
 
- - _**EscapeReturn \ LabourTransfer**_,
+ - _**Escape Return \ Labour Transfer**_,
 
      Checkin will create based on Labour Transfer, If the Employee tranfered to other organization and Return to Lodging.
 
      Checkin will created, when Employee return after Escaped from Lodging or customer.
 
- - _**JailReturn \ HospitalReturn**_,
+ - _**Jail Return \ Hospital Return**_,
 
       If Employee returned from Jail or Hospital, then Checkin will create without End the Contract.
 
@@ -166,6 +166,14 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
    - User can cancel the checkin request to Employee,  When the checkin type of Employee is **"CheckIn_Without_End_Contract"**.
 
+  - **User can move to following stage.**
+
+     *  _In The Action fields are Following:_
+
+        ***1.Complete*** - Complete and moved to **Waiting For Check-in** Stage.
+
+        ***2.Reject*** - Complete and moved to **Cancel** stage
+
 
 - ### Waiting For Check-in:
 
@@ -175,7 +183,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
    - In this stage, Employee Status is changed to "Waiting For Action-Lodging".
 
-      <br>
+<br>
 
    - **Once Check-in created for Employee, will update following action based on check-in types:**
 
@@ -200,6 +208,14 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
          - _**Labour Transfer**_, Checkin will create based on Labour Transfer, when Employee Return to Lodging for Transfer and then move to Required stage.
 
+     - **User can move to following stage.**
+
+       *  _In The Action fields are Following:_
+
+          ***1.Complete*** - Complete and moved to **Update Worker Status** Stage.
+
+          ***2.Reject*** - Complete and moved to **Cancel** stage
+
 
 - ### Update Worker Status:
 
@@ -211,44 +227,52 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
   - Based on Return Request Employee status and process will start.
 
-     - End of Contract
+     - _End of Contract_
 
        - Once Employee End the contract with cutomer then Employee Status updated to "**Ready To Work**".
 
-     - Request Vacation
+     - _Request Vacation_
 
        - Employee Require for Vacation, Investigation Process will start with Request Vacation.
 
-     - Request For exit
+     - _Request For exit_
 
        - Employee Require for Exit, and then Investigation Process will start with Waiting For Exit.
 
-     - Customer from Customer
+     - _Customer from Customer_
 
        - Employee Require for Exit, Investigation Process will start with Investigation.
 
-     - Complaint from Employee
+     - _Complaint from Employee_
 
        - If Employee Complaint on Customer and, Investigation Process will start with Investigation to Employee.
 
-     - Sick
+     - _Sick_
 
        - If Employee want to treatment then Hospital process will Start.
 
-     - Rest
+     - _Rest_
 
        - If Employee required for Rest, the rest Process will start.
 
   - And then the process will moved to confirmed stage.
 
+  - **User can move to following stage.**
+
+       *  _In The Action fields are Following:_
+
+          ***1.Complete*** - Complete and moved to **Confirmed** Stage.
+
+          ***2.Reject*** - Complete and moved to **Cancel** stage
+
 
 - ### Confirmed:
 
-   - The process will moved to required stage and confirmed with this stage.
+   - In this stage, The process will moved to required stage.
 
 - ### Cancel:
 
-   - Process moved to cancel stage, once the request is cancelled from any stage.
+   - Process moved to cancel stage, once the request is cancelled from stage.
 
 <br>
 
@@ -283,6 +307,13 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
   - The newly required request will move to process into ***Waiting For Check-out*** stage.
 
+   - **User can move to following stage.**
+
+       *  _In The Action fields are Following:_
+
+          ***1.Complete*** - Complete and moved to **Waiting For Check-Out** Stage.
+
+
 
 - ### Waiting For Check-out:
 
@@ -300,9 +331,11 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
     - When Employee return from Hospital, Then process will moved to required stage.
 
-      - In The Action fields are Following:
+    - **User can move to following stage.**
 
-        ___1.Complete___ - User Will complete or Move the process with Required stage.
+       *  _In The Action fields are Following:_
+
+          1.**Complete** - User Will complete or Move the process with Required stage.
 
 
 <br>
@@ -312,11 +345,11 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 # [**Labour Cases**](#lodging)
 
-| [Rest Stage](#rest) | [Refuse To Work Stage](#refuse-to-work) | [Dead Stage](#dead) | [Jail Stage](#jail) | [Hopital Stage](#hospital) | [Escape Stage](#escape) |
+| [Rest Stage](#rest) | [Refuse To Work Stage](#refuse-to-work) | [Dead Stage](#dead) | [Jail Stage](#jail) | [Hospital Stage](#hospital) | [Escape Stage](#escape) |
 
 <br>
 
-### [**Rest**](#labour-cases)
+## [**Rest**](#labour-cases)
 
  Rest Transaction will creates with Sub-Category from different sources.
 
@@ -347,30 +380,35 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
   - Newly initiated Request is moved to Rest or Reserved for VIP stage.
 
+  - **User can move to following stage.**
+
        * _In The Action fields are Following:_
 
-         ***1.Rest*** - User move to **Rest** stage
+         ***1.Rest*** - User Complete and move to **Rest** stage.
 
-         ***2.Reserved For VIP*** - User move to *Reserved For VIP* status.
+         ***2.Reserved For VIP*** - User complete and move to *Reserved For VIP* status.
 
 - ### Rest:
 
-  - User can move to following stage.
+  - **User can move to following stage.**
 
      *  _In The Action fields are Following:_
 
-        ***1.Reserved For VIP*** - User move to **Reserved For VIP** status
+        ***1.Reserved For VIP*** - User complete and move to **Reserved For VIP** status
 
-        ***2.Waiting For Action*** - User moved to **Waiting for Action** stage
+        ***2.Waiting For Action*** - Usercomplete and moved to **Waiting for Action** stage
 
 - ### Reserved For VIP:
 
   - In this stage, Employee status changed to as **Reserved for VIP**.
 
-  - Complete - Waiting for Action, And Employee status changed to as **Rest**
+  - Complete - Waiting for Action, And Employee status changed to as **Rest**.
+
+   - **User can move to following stage.**
+
      * _In The Action fields are Following:_
 
-       **1.Complete** - And Moved to **Waiting for Action** stage.
+       **1.Complete** - Complete and Moved to **Waiting for Action** stage.
 
 
 - ### Reserved For Sales:
@@ -391,22 +429,23 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
   - If Employee request for Retirment(Final Exit), then retirement request will create for Employee with required data.
 
+  - **User can move to following stage.**
 
     * In The Action fields are Following:
 
-       ***1.Ready to Work*** - User move to process with Required stage.
+       ***1.Ready to Work*** - User complete and move to process with Required stage.
 
-       ***2.Refuse to Work*** - User move to process with **Refuse To Work** stage.
+       ***2.Refuse to Work*** - User complete and move to process with **Refuse To Work** stage.
 
-       ***3.Leave*** - User move to process with **Leave Request** stage.
+       ***3.Leave*** - User coomplete and move to process with **Leave Request** stage.
 
-       ***4.Final Exit*** - User move to process with **Retirement** stage.
+       ***4.Final Exit*** - User complete and move to process with **Retirement** stage.
 
 
 <br>
 <br>
 
-### [**Refuse to Work**](#labour-cases)
+## [**Refuse to Work**](#labour-cases)
 
 Transaction will creates with Sub-Category in different sources.
 
@@ -440,17 +479,19 @@ Transaction will creates with Sub-Category in different sources.
 
        ****Refuse to Work,**
 
-       Moved to Waiting for Action and then Investigation process will start for Emloyee.
+       Moved to Waiting for Action and then **Investigation process** will start for Emloyee.
 
       *****Ready to Work,***
 
-       Moved to Required stages, and then employee status changed to Ready to work.
+       Moved to Required stages, and then employee status changed to **Ready to work**.
 
-       * _In The Action fields are Following:_ 
+    - **User can move to following stage.**
 
-          *  **1.Refuse to Work** - Moved to for Investigation Process.
+       * _In The Action fields are Following:_
 
-          *  **2.Ready To Work** - Moved to Required stage.
+          *  **1.Refuse to Work** - Complete and Moved to **Refuse to Work** stage.
+
+          *  **2.Ready To Work** - Complete and Moved to **Complete** stage.
 
 - ### Refuse to Work:
 
@@ -464,19 +505,20 @@ Transaction will creates with Sub-Category in different sources.
 
   * If Employee rquest for Final Exit, then Retirement request will create with required data for Employee.
 
+   - **User can move to following stage.**
+
      * _In The Action fields are Following:_
 
-       * **1.Final Exit -** Moved to process Retirement request.
+       * **1.Final Exit -** Complete and Moved to process **Retirement request** stage.
 
-       * **2.Vacation -** Moved to process Leave Request.
+       * **2.Vacation -** Complete and Moved to process **Leave Request** stage.
 
-       * **3.Refuse To Work -** start with Investigation.
+       * **3.Refuse To Work -** Complete and move to start with **Under Investigation** stage.
 
-       * **4.Ready To Work -** Moved to Required stages.
+       * **4.Ready To Work -** Complete and Moved to Required stages.
 
 
 - ### Legal Action:
-
 
 
 - ### Waiting For Vacation:
@@ -493,7 +535,7 @@ Transaction will creates with Sub-Category in different sources.
 <br>
 <br>
 
-### [**Dead**](#dead)
+## [**Dead**](#dead)
 
 In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
@@ -518,11 +560,11 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
   - If "Employee is on Lodging", then **Checkout** process will stat for Employee from the Lodging.
 
+  - **User can move to following stage.**
 
+     * _In The Action fields are Following:_
 
-     * **_In The Action fields are Following:_**
-
-        **1.Complete** - Complete and Moved to Action Stage..
+        **1.Complete** - Complete and Moved to **Action** Stage.
 
 - ### Action:
 
@@ -532,14 +574,16 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
   - In this stage, Request is move to **Complete** stage.
 
-     * **_In The Action fields are Following:_**
+  - **User can move to following stage.**
+
+     * _In The Action fields are Following:_
 
        * **1.Complete** - Moved to Complete stage.
 
 <br>
 <br>
 
-### [**Jail**](#labour-cases)
+## [**Jail**](#labour-cases)
 
  In This stage, The Employee status is Changed to **Absent**.
 
@@ -563,11 +607,11 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
     * ***Date*** - Actual Jailing Date of Employee.
 
-  - Required to move to Action Stage.
+  - **User can move to following stage.**
 
-       * **_In The Action fields are Following:_**
+       * _In The Action fields are Following:_
 
-          **1.Complete** - Moved to Action stage.
+          **1.Complete** - Complete and Moved to **Action** stage.
 
 
 - ### Action:
@@ -576,21 +620,22 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
     - If Employee Reqested for the **Vacation**, Then **Leave Request** process will start for Employee.
 
-   - or The Employee terminated and moved to **Final Exit**, Then **Retirement** request will create for the **Final Settlement** to Employee.
+    - or The Employee terminated and moved to **Final Exit**, Then **Retirement** request will create for the **Final Settlement** to Employee.
 
+    - **User can move to following stage.**
 
-      * **_In The Action fields are Following:_**
+      * _In The Action fields are Following:_
 
-         **1.Vacation** - Complete and Move to Vacation Stage.
+         **1.Vacation** - Complete and Move to **Leave Request** Stage.
 
-         **2.Final Exit** - Complete and Move to Final Exit/Retirement stage.
+         **2.Final Exit** - Complete and Move to **Retirement/Final Exit** stage.
 
-         **3.Return** - Complete and Return to Work.
+         **3.Return** - Complete and moved to **Return to Work** status.
 
 <br>
 <br>
 
-### [**Hospital**](#labour-cases)
+## [**Hospital**](#labour-cases)
 
 In This stage, Employee status is changed to **Sick**.
 
@@ -611,9 +656,9 @@ In This stage, Employee status is changed to **Sick**.
     * ***Location*** - Employee Located place while request for Sick.
 
 
-    And then User can move to following required stage,
+   - **User can move to following stage.**
 
-     * **_In The Action fields are Following:_**
+     * _In The Action fields are Following:_
 
         **1.Sent to Hospital** - Complete and Moved to **Sent to Hospital** stage.
 
@@ -625,11 +670,11 @@ In This stage, Employee status is changed to **Sick**.
 
    - In this stage, User can move to following required stage,
 
-     * **_In The Action fields are Following:_**
+     * _In The Action fields are Following:_
 
-       **1. Admitted to Hospital** - Complete and move to Admitted to Hospital stage.
+       **1. Admitted to Hospital** - Complete and move to **Admitted to Hospital** stage.
 
-       **2. Sick Leave** - Complete and move to Sick Leave stage.
+       **2. Sick Leave** - Complete and move to **Sick Leave** stage.
 
 - ### Admitted to Hospital:
 
@@ -638,9 +683,9 @@ In This stage, Employee status is changed to **Sick**.
 
   - When Employee return from the Hospital, then checkin will start to lodging, and move to required stage.
 
-    And then User can move to following required stage,
+  - **User can move to following stage.**
 
-     * **_In The Action fields are Following:_**
+     * _In The Action fields are Following:_
 
        **1.Sick Leave** - Complete and moved to **Sick Leave** stage.
 
@@ -651,9 +696,9 @@ In This stage, Employee status is changed to **Sick**.
 
    -  If Employee request for Sick Leave, then Will start process for Sick Leave.
 
-        And then User can move to following required stage,
+  - **User can move to following stage.**
 
-      * **_In The Action fields are Following:_**
+      * _In The Action fields are Following:_
 
          **1.Waiting for Action** - Complete and moved to **Waiting for Action** stage
 
@@ -675,20 +720,20 @@ In This stage, Employee status is changed to **Sick**.
 
          Employee status will changed to _Send To Hospital_, And moved to required stage.
 
-     * And then User can move to following required stage,
+     - **User can move to following stage.**
 
-         * **_In The Action fields are Following:_**
+         * _In The Action fields are Following:_
 
-           **1.Ready to Work** - Complete and moved to Required stage
+           **1.Ready to Work** - Complete and moved to **Complete** stage
 
-           **2.Refuse to Work** - Complete and moved to Refuse To Work stage.
+           **2.Refuse to Work** - Complete and moved to **Complete** stage.
 
-           **3.Sent to Hospital** - Complete and moved to Send To Hospital stage.
+           **3.Sent to Hospital** - Complete and moved to **Send To Hospital** stage.
 
 <br>
 <br>
 
-### [**Escape**](#labour-cases)
+## [**Escape**](#labour-cases)
 
 
 - In this stage, Escape request will created from **individual** module or by user.
@@ -738,9 +783,9 @@ In This stage, Employee status is changed to **Sick**.
 
    - And User also can do manual action on this process.
 
-      - And then User can move to following required stage,
+  - **User can move to following stage.**
 
-         * **_In The Action fields are Following:_**
+       * _In The Action fields are Following:_
 
            **1. Complete** - Complete and Moved to **Escaped** stage.
 
@@ -756,27 +801,27 @@ In This stage, Employee status is changed to **Sick**.
 
    - And user also can do manual action on this process.
 
-     * And then User can move to required stage,
+   - **User can move to following stage.**
 
-         * **_In The Action fields are Following:_**
+       * _In The Action fields are Following:_
 
-           1. **Complete** - Complete and Moved to Register in MOL Stage.
+           1. **Complete** - Complete and Moved to **Register in MOL** Stage.
 
-           2. **Escape Return** - Complete and Moved to Return from Escape Stage.
+           2. **Escape Return** - Complete and Moved to **Return from Escape** Stage.
 
-           3. **Gov_Case** - Complete and Moved to GOV_Case Stage.
+           3. **Gov_Case** - Complete and Moved to **GOV_Case** Stage.
 
-           4. **Deport** - Complete and Moved to Deport Stage.
+           4. **Deport** - Complete and Moved to **Deport** Stage.
 
 
 
 - ### Gov Case:
 
-     * And then User can move to required stage,
+     * **And then User can move to required stage,**
 
-         * **_In The Action fields are Following:_**
+        * _In The Action fields are Following:_
 
-            1. Move to Escape - Complete and moved to Escaped stage.
+            1. **Move to Escape** - Complete and moved to **Escaped** stage.
 
 - ### Deport:
 
@@ -791,15 +836,15 @@ In This stage, Employee status is changed to **Sick**.
 
    - If the Employee return from Escape, then moved to **Return from Escape** stage.
 
-     * And then User can move to required stage,
+   * **And then User can move to required stage,**
 
-         * **_In The Action fields are Following:_**
+        * _In The Action fields are Following:_
 
              1. **Complete** - Completed and Moved to **Complete** stage.
             
              2. **Escape Return** - Complete and Moved to **Return From Escape** Stage.
 
-             3. **Move to Gov_Case** - Complete and Move to **Gov-Case** stage
+             3. **Move to Gov_Case** - Complete and Moved to **Gov-Case** stage
 
 - ### Return From Escape:
 
@@ -811,22 +856,22 @@ In This stage, Employee status is changed to **Sick**.
 
   - And then this process will skip and move to **completed** stage.
 
-     * And then User can move to required stage,
+   * **And then User can move to required stage,**
 
-         * **_In The Action fields are Following:_**
+        * _In The Action fields are Following:_
 
-           1. Complete - Complete and Move to **Escape Cancelled** Stage.
+           1. **Complete** - Complete and Move to **Escape Cancelled** Stage.
 
 
 - ### UnRegister Muqeem:
 
-  - After Employee return from Escape, if the employee already register in MOL, then this stage starts for Employee,
+  - After Employee return from Escape, if the employee already R***egister in MOL***, then this stage starts for Employee.
 
-     * And then User can move to required stage,
+  * A**nd then User can move to required stage,**
 
-         * **_In The Action fields are Following:_**
+      * _In The Action fields are Following:_
 
-              1. Complete - Complete and Moved to **Escaped Cancelled** stage.
+          1. **Complete** - Complete and Moved to **Escaped Cancelled** stage.
 
 - ### Escaped Cancelled:
 
