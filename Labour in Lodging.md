@@ -2,12 +2,12 @@
 
 | [Labour in Lodging](#labour-in-lodging) | [Labour in Movement](#labour-movement) | [Labour Cases](#labour-cases)|
 
-# Labour in Lodging
+# [Labour in Lodging](#lodging)
 
 | [Labour in Lodging](#labour-in-lodging-1) | [Labour in Marketing](#labour-in-marketing) | [Lodging Profile Search](#lodging-profile-search) | [Ind Sales Profiles](#ind-sales-profiles) |
 
 
-## **Labour in Lodging:**
+## [**Labour in Lodging:**](#labour-in-lodging)
 
  * Labour in lodging is a status view, and use to view the number of employees in lodging with work category wise.
 
@@ -20,33 +20,45 @@
       * New Arrival request,
       * Check in and Check Out.
 
- - ***Intituitional Quarantine** - Employee status as Intituitional Quarantine, updated from New Employee request.
+ - ***Intituitional Quarantine**
+   - Employee status as Intituitional Quarantine, updated from New Employee request.
 
- - ***Under Documentation** - Employee status as Under Documentation, updated from New Employee request.
 
- - ***Under Training** - Employee status as Under Training, updated from New Employee Request.
+ - ***Under Documentation**
+   - Employee status as Under Documentation, updated from New Employee request.
 
- - ***Waiting For Action** - Employee status as Waiting For Action, updated from New Employee Request.
 
- -  ***Reserved For VIP** - Employee status as Reserved For VIP, updated from New Employee Request.
+ - ***Under Training**
+   - Employee status as Under Training, updated from New Employee Request.
 
- - ***Refuse to Work** - Employee status as Refuse to Work, updated from New Employee Request.
+ - ***Waiting For Action**
+   - Employee status as Waiting For Action, updated from New Employee Request.
 
- - ***Ready to Work** - Employee status as Ready to Work, updated from New Employee Request.
+ -  ***Reserved For VIP**
+    - Employee status as Reserved For VIP, updated from New Employee Request.
+
+ - ***Refuse to Work**
+    - Employee status as Refuse to Work, updated from New Employee Request.
+
+ - ***Ready to Work**
+    - Employee status as Ready to Work, updated from New Employee Request.
 
  - ***Booked** - 
 
  - ***In transist** - 
 
- - ***Vacation Requested** - Employee status as Vacation Requested, updated from Employee Leave Request.
+ - ***Vacation Requested**
+    - Employee status as Vacation Requested, updated from Employee Leave Request.
 
- - ***Final Exit requested** - Employee status as Final Exit requested, updated from Employee Retirement.
+ - ***Final Exit requested**
+    - Employee status as Final Exit requested, updated from Employee Retirement.
 
- - ***Waiting For Travel** - Final Exit requested, updated from (Employee Leave Request or Employee Retirement).
+ - ***Waiting For Travel**
+   - Final Exit requested, updated from (Employee Leave Request or Employee Retirement).
 
 <br>
 
-## **Labour in Marketing:**
+## [**Labour in Marketing:**](#labour-in-lodging)
 
 - List to view the Employees status and information with Listed Employee waiting for **"Ready to Work"** status.
 
@@ -65,7 +77,7 @@
 
 <br>
 
-## **Lodging Profile Search:**
+## [**Lodging Profile Search:**](#labour-in-lodging)
 
 - User can view the Employee List as Card View, who resides in Lodging Locations.
 
@@ -83,7 +95,7 @@
 <br>
 
 
-## **Ind Sales Profiles:**
+## [**Ind Sales Profiles:**](#labour-in-lodging)
 
 - User can review, The List of Employee who are waiting in **"Ready to Work"** status.
 
@@ -104,11 +116,11 @@
 <br>
 
 
-# Labour Movement
+# [Labour Movement](#lodging)
 
-| [Labour Check-in](#labour-checkin) | [Labour Check-out](#labour-check-out-request) |
+| [Labour Check-in](#labour-check-in) | [Labour Check-out](#labour-check-out-request) |
 
-## **Labour Check-in:**
+## [**Labour Check-in:**](#labour-movement)
 
 When Ever Employee returned to Lodging, from below Listed category will start the Checkin process manually or start and complete by system integration.
 
@@ -145,7 +157,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-### **Workflow Stages in Labour Movements**,
+### [**Workflow Stages in Labour Check-In**](#labour-movement)
 
 
 - ### Requested:
@@ -240,7 +252,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-## **Labour Check-Out Request:**
+## [**Labour Check-Out Request:**](#labour-movement)
 
 - ### **Check-out Request will create by following source.**
 
@@ -265,7 +277,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-### **Check-out Workflow stages:**
+### [**Check-out Workflow stages:**](#labour-movement)
 
 - ### Requested:
 
@@ -298,11 +310,13 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 <br>
 
 
-# **Labour Case**
+# [**Labour Cases**](#lodging)
+
+| [Rest Stage](#rest) | [Refuse To Work Stage](#refuse-to-work) | [Dead Stage](#dead) | [Jail Stage](#jail) | [Hopital Stage](#hospital) | [Escape Stage](#escape) |
 
 <br>
 
-### **Rest**
+### [**Rest**](#labour-cases)
 
  Rest Transaction will creates with Sub-Category from different sources.
 
@@ -327,7 +341,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-### ***Rest Workflow:***
+### [***Rest Workflow:***](#labour-cases)
 
 - ### New:
 
@@ -392,7 +406,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 <br>
 <br>
 
-### **Refuse to Work**
+### [**Refuse to Work**](#labour-cases)
 
 Transaction will creates with Sub-Category in different sources.
 
@@ -418,7 +432,7 @@ Transaction will creates with Sub-Category in different sources.
 
 <br>
 
-### ***Refuse to Work - Workflow:***
+### [***Refuse to Work - Workflow:***](#labour-cases)
 
 - ### Under Investigation:
 
@@ -479,13 +493,13 @@ Transaction will creates with Sub-Category in different sources.
 <br>
 <br>
 
-### **Dead**
+### [**Dead**](#dead)
 
 In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
 <br>
 
-### ***Dead Workflow:***
+### [***Dead Workflow:***](#labour-cases)
 
 - ### Request:
 
@@ -525,7 +539,7 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 <br>
 <br>
 
-### _**Jail**_
+### [**Jail**](#labour-cases)
 
  In This stage, The Employee status is Changed to **Absent**.
 
@@ -535,7 +549,7 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
 <br>
 
-### ***Jail Workflow:***
+### [***Jail Workflow:***](#labour-cases)
 
 - ### Request:
 
@@ -576,7 +590,7 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 <br>
 <br>
 
-### _**Hospital**_
+### [**Hospital**](#labour-cases)
 
 In This stage, Employee status is changed to **Sick**.
 
@@ -584,7 +598,7 @@ In This stage, Employee status is changed to **Sick**.
 
 <br>
 
-### ***Hopital Workflow:***
+### [***Hopital Workflow:***](#labour-cases)
 
 - ### New:
 
@@ -674,7 +688,7 @@ In This stage, Employee status is changed to **Sick**.
 <br>
 <br>
 
-### **Escape**
+### [**Escape**](#labour-cases)
 
 
 - In this stage, Escape request will created from **individual** module or by user.
@@ -699,7 +713,7 @@ In This stage, Employee status is changed to **Sick**.
 
 <br>
 
-### ***Escape Workflow:***
+### [***Escape Workflow:***](#labour-cases)
 
 
 - ### Missed:
