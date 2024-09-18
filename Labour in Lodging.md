@@ -157,7 +157,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-### [**Workflow Stages in Labour Check-In**](#labour-movement)
+### ***Workflow Stages in Labour Check-In***
 
 
 - ### Requested:
@@ -277,7 +277,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-### [**Check-out Workflow stages:**](#labour-movement)
+### ***Check-out Workflow stages:***
 
 - ### Requested:
 
@@ -341,7 +341,7 @@ When Ever Employee returned to Lodging, from below Listed category will start th
 
 <br>
 
-### [***Rest Workflow:***](#labour-cases)
+### [***Rest Workflow:***](#rest)
 
 - ### New:
 
@@ -432,7 +432,7 @@ Transaction will creates with Sub-Category in different sources.
 
 <br>
 
-### [***Refuse to Work - Workflow:***](#labour-cases)
+### [***Refuse to Work - Workflow:***](#refuse-to-work)
 
 - ### Under Investigation:
 
@@ -499,7 +499,7 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
 <br>
 
-### [***Dead Workflow:***](#labour-cases)
+### [***Dead Workflow:***](#dead)
 
 - ### Request:
 
@@ -549,7 +549,7 @@ In Case of Employee is deceased, then Employee Status is Changed to **Dead**.
 
 <br>
 
-### [***Jail Workflow:***](#labour-cases)
+### [***Jail Workflow:***](#jail)
 
 - ### Request:
 
@@ -598,7 +598,7 @@ In This stage, Employee status is changed to **Sick**.
 
 <br>
 
-### [***Hopital Workflow:***](#labour-cases)
+### [***Hopital Workflow:***](#hospital)
 
 - ### New:
 
@@ -713,7 +713,7 @@ In This stage, Employee status is changed to **Sick**.
 
 <br>
 
-### [***Escape Workflow:***](#labour-cases)
+### [***Escape Workflow:***](#escape)
 
 
 - ### Missed:
